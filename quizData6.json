@@ -1,48 +1,55 @@
 [
     {
-    "hindiWord": "अमृत",
+    "hindiWord": "शेर",
     "englishWord": "Lion",
     "image": "img/no.jpg"
   },  {
-    "hindiWord": "झरना",
+    "hindiWord": "बाघ",
     "englishWord": "Tiger",
     "image": "img/no.jpg"
   },  {
-    "hindiWord": "मृइ",
+    "hindiWord": "हाथी",
     "englishWord": "Elephant",
     "image": "img/no.jpg"
   },  {
-    "hindiWord": "घृत",
+    "hindiWord": "भालू",
     "englishWord": "Bear",
     "image": "img/no.jpg"
   },  {
-    "hindiWord": "हृदय",
+    "hindiWord": "हिरन",
     "englishWord": "Deer",
     "image": "img/no.jpg"
-  },  {
-    "hindiWord": "मृत",
+  }, 
+    {
+    "hindiWord": "लोमड़ी",
+    "englishWord": "Fox",
+    "image": "img/no.jpg"
+  }, 
+    
+    {
+    "hindiWord": "बंदर",
     "englishWord": "Monkey",
     "image": "img/no.jpg"
   },  {
-    "hindiWord": "ऋतु",
+    "hindiWord": "साँप",
     "englishWord": "Snake",
     "image": "img/no.jpg"
   },  {
-    "hindiWord": "वृय",
+    "hindiWord": "कंगेरू",
     "englishWord": "Kangaroo",
     "image": "img/no.jpg"
   },  {
-    "hindiWord": "तृतीय",
+    "hindiWord": "गैंडा",
     "englishWord": "Rhino",
     "image": "img/no.jpg"
   },
    {
-    "hindiWord": "तृतीय",
+    "hindiWord": "चीता",
     "englishWord": "Cheetah",
     "image": "img/no.jpg"
   } ,
    {
-    "hindiWord": "तृतीय",
+    "hindiWord": "तेंदुआ",
     "englishWord": "Leopard",
     "image": "img/no.jpg"
   } 
