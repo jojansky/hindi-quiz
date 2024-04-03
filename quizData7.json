@@ -1,0 +1,61 @@
+[
+    {
+    "hindiWord": "गाय",
+    "englishWord": "Cow",
+    "image": "img/no.jpg"
+  },  {
+    "hindiWord": "बकरी",
+    "englishWord": "Goat",
+    "image": "img/no.jpg"
+  },  {
+    "hindiWord": "घोड़ा",
+    "englishWord": "Horse",
+    "image": "img/no.jpg"
+  },  {
+    "hindiWord": "बिल्ली",
+    "englishWord": "Cat",
+    "image": "img/no.jpg"
+  },  {
+    "hindiWord": "कुत्ता",
+    "englishWord": "Dog",
+    "image": "img/no.jpg"
+  }, 
+    {
+    "hindiWord": "बैल",
+    "englishWord": "Bull",
+    "image": "img/no.jpg"
+  }, 
+    
+    {
+    "hindiWord": "भैंस",
+    "englishWord": "Buffalo",
+    "image": "img/no.jpg"
+  },  {
+    "hindiWord": "तोता",
+    "englishWord": "Parrot",
+    "image": "img/no.jpg"
+  },  {
+    "hindiWord": "बत्तख",
+    "englishWord": "Duck",
+    "image": "img/no.jpg"
+  },  {
+    "hindiWord": "कबूतर",
+    "englishWord": "Pigeon",
+    "image": "img/no.jpg"
+  },
+   {
+    "hindiWord": "मुर्गी",
+    "englishWord": "Hen",
+    "image": "img/no.jpg"
+  } ,
+   {
+    "hindiWord": "मुर्गा",
+    "englishWord": "Cock",
+    "image": "img/no.jpg"
+  } ,
+   {
+    "hindiWord": "मछली",
+    "englishWord": "Fish",
+    "image": "img/no.jpg"
+  } 
+]
