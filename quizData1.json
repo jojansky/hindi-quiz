@@ -1,32 +1,37 @@
 [
   {
-    "hindiWord": "आम",
-    "englishWord": "Mango",
-    "image": "mango.jpg"
+    "hindiWord": "त्रिशूल",
+    "englishWord": "Trishool",
+    "image": "trishool.png"
   },
   {
-    "hindiWord": "बिल्ली",
-    "englishWord": "Cat",
-    "image": "cat.jpg"
+    "hindiWord": "त्रिकोण",
+    "englishWord": "Triangle",
+    "image": "triangle.jpg"
   },
   {
-    "hindiWord": "गुलाब",
-    "englishWord": "Rose",
-    "image": "rose.jpg"
+    "hindiWord": "ज्ञान",
+    "englishWord": "KnowledgePerson",
+    "image": "knowledge-person.jpg"
   },  
   {
-    "hindiWord": "आम",
-    "englishWord": "Mango",
-    "image": "mango.jpg"
+    "hindiWord": "ज्ञान",
+    "englishWord": "knowledge",
+    "image": "knowledge.jpg"
   },
   {
-    "hindiWord": "बिल्ली",
-    "englishWord": "Cat",
-    "image": "cat.jpg"
+    "hindiWord": "श्रमिक",
+    "englishWord": "Hard Worker",
+    "image": "hard-work.png"
   },
   {
-    "hindiWord": "गुलाब",
-    "englishWord": "Rose",
-    "image": "rose.jpg"
+    "hindiWord": "परिश्रम्",
+    "englishWord": "Hard Work",
+    "image": "hardwork.webp"
+  },
+    {
+    "hindiWord": "श्रम",
+    "englishWord": "Do Hardwork",
+    "image": "hardwork.webp"
   }
 ]
