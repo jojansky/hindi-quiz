@@ -13,5 +13,20 @@
     "hindiWord": "गुलाब",
     "englishWord": "Rose",
     "image": "rose.jpg"
+  },  
+  {
+    "hindiWord": "आम",
+    "englishWord": "Mango",
+    "image": "mango.jpg"
+  },
+  {
+    "hindiWord": "बिल्ली",
+    "englishWord": "Cat",
+    "image": "cat.jpg"
+  },
+  {
+    "hindiWord": "गुलाब",
+    "englishWord": "Rose",
+    "image": "rose.jpg"
   }
 ]
