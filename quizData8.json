@@ -1,0 +1,56 @@
+[
+    {
+    "hindiWord": "छतरी",
+    "englishWord": "Umbrella",
+    "image": "img/no.jpg"
+  },  {
+    "hindiWord": "छड",
+    "englishWord": "Walking Stick",
+    "image": "img/no.jpg"
+  },  {
+    "hindiWord": "छत",
+    "englishWord": "Terrace",
+    "image": "img/no.jpg"
+  },  {
+    "hindiWord": "वृक्ष",
+    "englishWord": "Tree",
+    "image": "img/no.jpg"
+  },  {
+    "hindiWord": "वन",
+    "englishWord": "Forest",
+    "image": "img/no.jpg"
+  }, 
+    {
+    "hindiWord": "वर्षा",
+    "englishWord": "Rain",
+    "image": "img/no.jpg"
+  }, 
+    
+    {
+    "hindiWord": "जग",
+    "englishWord": "Jug",
+    "image": "img/no.jpg"
+  },  {
+    "hindiWord": "जुगनू",
+    "englishWord": "Firefly",
+    "image": "img/no.jpg"
+  },  {
+    "hindiWord": "जहाज",
+    "englishWord": "Ship",
+    "image": "img/no.jpg"
+  },  {
+    "hindiWord": "धनुष",
+    "englishWord": "Bow",
+    "image": "img/no.jpg"
+  },
+   {
+    "hindiWord": "धन",
+    "englishWord": "Money",
+    "image": "img/no.jpg"
+  } ,
+   {
+    "hindiWord": "धूप",
+    "englishWord": "Sunlight",
+    "image": "img/no.jpg"
+  } 
+]
