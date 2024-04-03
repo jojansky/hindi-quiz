@@ -30,8 +30,6 @@
     </select>
     <div id="question"></div>
     <div id="options"></div>
-    <input type="text" id="answerInput" placeholder="Type your answer here">
-    <button onclick="checkAnswer()">Check Answer</button>
     <p id="result"></p>
   </div>
 
@@ -64,7 +62,7 @@
       questionElement.appendChild(image);
       optionsElement.innerHTML = '';
       const shuffledOptions = shuffle([
-        quizData[currentQuestion].englishWord,
+        quizData[currentQuestion].hindiWord,
         getRandomOption(),
         getRandomOption()
       ]);
@@ -87,15 +85,14 @@
     function getRandomOption() {
       let randomOption;
       do {
-        randomOption = quizData[Math.floor(Math.random() * quizData.length)].englishWord;
-      } while (randomOption === quizData[currentQuestion].englishWord);
+        randomOption = quizData[Math.floor(Math.random() * quizData.length)].hindiWord;
+      } while (randomOption === quizData[currentQuestion].hindiWord);
       return randomOption;
     }
 
     function checkAnswer(answer) {
-      const userAnswer = document.getElementById('answerInput').value.trim();
-      const correctAnswer = quizData[currentQuestion].englishWord;
-      if (userAnswer.toLowerCase() === correctAnswer.toLowerCase()) {
+      const correctAnswer = quizData[currentQuestion].hindiWord;
+      if (answer === correctAnswer) {
         score++;
         document.getElementById('result').innerText = 'Correct!';
       } else {
