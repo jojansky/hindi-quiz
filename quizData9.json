@@ -21,56 +21,62 @@
     "image": "img/no.jpg"
   }, 
     {
-    "hindiWord": "बैल",
+    "hindiWord": "भालू",
     "englishWord": "Bear",
     "image": "img/no.jpg"
   }, 
     
     {
-    "hindiWord": "भैंस",
+    "hindiWord": "टूट",
     "englishWord": "Break",
     "image": "img/no.jpg"
   },  {
-    "hindiWord": "तोता",
+    "hindiWord": "कबूतर",
     "englishWord": "Pigeon",
     "image": "img/no.jpg"
   },  {
-    "hindiWord": "बत्तख",
+    "hindiWord": "तूफान",
     "englishWord": "Storm",
     "image": "img/no.jpg"
   },  {
-    "hindiWord": "कबूतर",
+    "hindiWord": "फूलदान",
     "englishWord": "Flower Pot",
     "image": "img/no.jpg"
   },
    {
-    "hindiWord": "मुर्गी",
+    "hindiWord": "चालू",
     "englishWord": "Start",
     "image": "img/no.jpg"
   } ,
    {
-    "hindiWord": "मुर्गा",
+    "hindiWord": "चाकू",
     "englishWord": "Knife",
     "image": "img/no.jpg"
   } ,
    {
-    "hindiWord": "मछली",
+    "hindiWord": "खून",
     "englishWord": "Blood",
     "image": "img/no.jpg"
   } ,
    {
-    "hindiWord": "मछली",
+    "hindiWord": "कूड़ा",
     "englishWord": "Garbage",
+    "image": "img/no.jpg"
+  } ,
+    
+   {
+    "hindiWord": "सूखा",
+    "englishWord": "Dried",
     "image": "img/no.jpg"
   } ,
   
    {
-    "hindiWord": "मछली",
+    "hindiWord": "कूद",
     "englishWord": "Jump",
     "image": "img/no.jpg"
   },
   {
-    "hindiWord": "मछली",
+    "hindiWord": "नाखून",
     "englishWord": "Nail",
     "image": "img/no.jpg"
   }
