@@ -62,7 +62,7 @@
       questionElement.innerHTML = '';
       questionElement.appendChild(image);
       englishLabel.innerHTML = quizData[currentQuestion].englishWord;
-      englishLabel.appendChild(englishLabel);
+      questionElement.appendChild(englishLabel);
       optionsElement.innerHTML = '';
       const shuffledOptions = shuffle([
         quizData[currentQuestion].hindiWord,
