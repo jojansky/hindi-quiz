@@ -1,0 +1,37 @@
+[
+  {
+    "hindiWord": "त्रिशूल",
+    "englishWord": "Trishool",
+    "image": "img/trishool.png"
+  },
+  {
+    "hindiWord": "त्रिकोण",
+    "englishWord": "Triangle",
+    "image": "img/triangle.jpg"
+  },
+  {
+    "hindiWord": "ज्ञान",
+    "englishWord": "KnowledgePerson",
+    "image": "img/knowledge-person.jpg"
+  },  
+  {
+    "hindiWord": "ज्ञान",
+    "englishWord": "knowledge",
+    "image": "img/knowledge.jpg"
+  },
+  {
+    "hindiWord": "श्रमिक",
+    "englishWord": "Hard Worker",
+    "image": "img/hard-work.png"
+  },
+  {
+    "hindiWord": "परिश्रम्",
+    "englishWord": "Hard Work",
+    "image": "img/hardwork.webp"
+  },
+    {
+    "hindiWord": "श्रम",
+    "englishWord": "Do Hardwork",
+    "image": "img/hardwork.webp"
+  }
+]
