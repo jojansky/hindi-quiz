@@ -1,0 +1,77 @@
+[
+    {
+    "hindiWord": "आलू",
+    "englishWord": "Potato",
+    "image": "img/no.jpg"
+  },  {
+    "hindiWord": "मूली",
+    "englishWord": "Radish",
+    "image": "img/no.jpg"
+  },  {
+    "hindiWord": "फूल",
+    "englishWord": "Flower",
+    "image": "img/no.jpg"
+  },  {
+    "hindiWord": "दूध",
+    "englishWord": "Milk",
+    "image": "img/no.jpg"
+  },  {
+    "hindiWord": "सूरज",
+    "englishWord": "Sun",
+    "image": "img/no.jpg"
+  }, 
+    {
+    "hindiWord": "बैल",
+    "englishWord": "Bear",
+    "image": "img/no.jpg"
+  }, 
+    
+    {
+    "hindiWord": "भैंस",
+    "englishWord": "Break",
+    "image": "img/no.jpg"
+  },  {
+    "hindiWord": "तोता",
+    "englishWord": "Pigeon",
+    "image": "img/no.jpg"
+  },  {
+    "hindiWord": "बत्तख",
+    "englishWord": "Storm",
+    "image": "img/no.jpg"
+  },  {
+    "hindiWord": "कबूतर",
+    "englishWord": "Flower Pot",
+    "image": "img/no.jpg"
+  },
+   {
+    "hindiWord": "मुर्गी",
+    "englishWord": "Start",
+    "image": "img/no.jpg"
+  } ,
+   {
+    "hindiWord": "मुर्गा",
+    "englishWord": "Knife",
+    "image": "img/no.jpg"
+  } ,
+   {
+    "hindiWord": "मछली",
+    "englishWord": "Blood",
+    "image": "img/no.jpg"
+  } ,
+   {
+    "hindiWord": "मछली",
+    "englishWord": "Garbage",
+    "image": "img/no.jpg"
+  } ,
+  
+   {
+    "hindiWord": "मछली",
+    "englishWord": "Jump",
+    "image": "img/no.jpg"
+  },
+  {
+    "hindiWord": "मछली",
+    "englishWord": "Nail",
+    "image": "img/no.jpg"
+  }
+]
