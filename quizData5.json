@@ -1,43 +1,39 @@
 [
     {
-    "hindiWord": "झंडा",
-    "englishWord": "Flag",
+    "hindiWord": "अमृत",
+    "englishWord": "Nector",
     "image": "img/no.jpg"
   },  {
     "hindiWord": "झरना",
-    "englishWord": "WaterFall",
+    "englishWord": "Soft",
     "image": "img/no.jpg"
   },  {
-    "hindiWord": "झील",
-    "englishWord": "Lake",
+    "hindiWord": "मृइ",
+    "englishWord": "Soft",
     "image": "img/no.jpg"
   },  {
-    "hindiWord": "थाली",
-    "englishWord": "Plate",
+    "hindiWord": "घृत",
+    "englishWord": "Ghee",
     "image": "img/no.jpg"
   },  {
-    "hindiWord": "वृट",
-    "englishWord": "Strong",
+    "hindiWord": "हृदय",
+    "englishWord": "Heart",
     "image": "img/no.jpg"
   },  {
-    "hindiWord": "वृक्ष",
-    "englishWord": "Tree",
+    "hindiWord": "मृत",
+    "englishWord": "Died",
     "image": "img/no.jpg"
   },  {
-    "hindiWord": "नूप",
-    "englishWord": "King",
+    "hindiWord": "ऋतु",
+    "englishWord": "Season",
     "image": "img/no.jpg"
   },  {
-    "hindiWord": "टूग",
-    "englishWord": "Eyes",
+    "hindiWord": "वृय",
+    "englishWord": "Worthless",
     "image": "img/no.jpg"
   },  {
-    "hindiWord": "कृष्णा",
-    "englishWord": "Krishna",
+    "hindiWord": "तृतीय",
+    "englishWord": "third",
     "image": "img/no.jpg"
-  },  {
-    "hindiWord": "मृग",
-    "englishWord": "Deer",
-    "image": "img/no.jpg"
-  }
+  } 
 ]
