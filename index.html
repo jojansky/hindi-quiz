@@ -57,9 +57,12 @@
       const questionElement = document.getElementById('question');
       const optionsElement = document.getElementById('options');
       const image = document.createElement('img');
+      const englishLabel = document.createElement('div');
       image.src = quizData[currentQuestion].image;
       questionElement.innerHTML = '';
       questionElement.appendChild(image);
+      englishLabel.innerHTML = quizData[currentQuestion].englishWord;
+      englishLabel.appendChild(englishLabel);
       optionsElement.innerHTML = '';
       const shuffledOptions = shuffle([
         quizData[currentQuestion].hindiWord,
