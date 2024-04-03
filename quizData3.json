@@ -1,3 +1,43 @@
 [
-  
+    {
+    "hindiWord": "थैली",
+    "englishWord": "Bag",
+    "image": "img/no.jpg"
+  },  {
+    "hindiWord": "थरमस",
+    "englishWord": "Flask",
+    "image": "img/no.jpg"
+  },  {
+    "hindiWord": "शेर",
+    "englishWord": "Lion",
+    "image": "img/no.jpg"
+  },  {
+    "hindiWord": "शलजम",
+    "englishWord": "Turnip",
+    "image": "img/no.jpg"
+  },  {
+    "hindiWord": "शंख",
+    "englishWord": "Conch",
+    "image": "img/no.jpg"
+  },  {
+    "hindiWord": "ठठेरा",
+    "englishWord": "Vessel Maker",
+    "image": "img/no.jpg"
+  },  {
+    "hindiWord": "ठेला",
+    "englishWord": "Cart",
+    "image": "img/no.jpg"
+  },  {
+    "hindiWord": "हृदय",
+    "englishWord": "Heart",
+    "image": "img/no.jpg"
+  },  {
+    "hindiWord": "घर",
+    "englishWord": "House",
+    "image": "img/no.jpg"
+  },  {
+    "hindiWord": "तृण",
+    "englishWord": "Grass",
+    "image": "img/no.jpg"
+  }
 ]
