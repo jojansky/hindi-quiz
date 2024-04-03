@@ -21,6 +21,13 @@
 <body>
   <div id="quiz-container">
     <h1>Hindi Quiz</h1>
+    <label for="jsonSelect">Select Quiz:</label>
+    <select id="jsonSelect" onchange="loadSelectedQuiz()">
+      <option value="" disabled selected>Select a Quiz</option>
+      <option value="quizData1.json">Quiz 1</option>
+      <option value="quizData2.json">Quiz 2</option>
+      <!-- Add more options as needed -->
+    </select>
     <div id="question"></div>
     <div id="options"></div>
     <input type="text" id="answerInput" placeholder="Type your answer here">
@@ -31,13 +38,19 @@
   <script>
     let quizData = [];
 
-    async function fetchQuizData() {
-      const response = await fetch('quizData.json');
+    async function fetchQuizData(selectedQuiz) {
+      const response = await fetch(selectedQuiz);
       quizData = await response.json();
       loadQuestion();
     }
 
-    fetchQuizData();
+    function loadSelectedQuiz() {
+      const selectElement = document.getElementById('jsonSelect');
+      const selectedQuiz = selectElement.value;
+      if (selectedQuiz) {
+        fetchQuizData(selectedQuiz);
+      }
+    }
 
     let currentQuestion = 0;
     let score = 0;
@@ -82,4 +95,27 @@
     function checkAnswer(answer) {
       const userAnswer = document.getElementById('answerInput').value.trim();
       const correctAnswer = quizData[currentQuestion].englishWord;
-      if (userAnswer.toLowerCase() === correctAnswer.t
+      if (userAnswer.toLowerCase() === correctAnswer.toLowerCase()) {
+        score++;
+        document.getElementById('result').innerText = 'Correct!';
+      } else {
+        document.getElementById('result').innerText = `Incorrect. The correct answer is ${correctAnswer}`;
+      }
+      currentQuestion++;
+      if (currentQuestion < quizData.length) {
+        loadQuestion();
+      } else {
+        endQuiz();
+      }
+    }
+
+    function endQuiz() {
+      document.getElementById('quiz-container').innerHTML = `
+        <h1>Quiz Complete!</h1>
+        <p>Your score: ${score} out of ${quizData.length}</p>
+        <button onclick="location.reload()">Try Another Quiz</button>
+      `;
+    }
+  </script>
+</body>
+</html>
