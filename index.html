@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hindi Quiz App</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    #quiz-container {
+      text-align: center;
+      margin-top: 50px;
+    }
+    img {
+      max-width: 300px;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div id="quiz-container">
+    <h1>Hindi Quiz</h1>
+    <div id="question"></div>
+    <div id="options"></div>
+    <input type="text" id="answerInput" placeholder="Type your answer here">
+    <button onclick="checkAnswer()">Check Answer</button>
+    <p id="result"></p>
+  </div>
+
+  <script>
+    let quizData = [];
+
+    async function fetchQuizData() {
+      const response = await fetch('quizData.json');
+      quizData = await response.json();
+      loadQuestion();
+    }
+
+    fetchQuizData();
+
+    let currentQuestion = 0;
+    let score = 0;
+
+    function loadQuestion() {
+      const questionElement = document.getElementById('question');
+      const optionsElement = document.getElementById('options');
+      const image = document.createElement('img');
+      image.src = quizData[currentQuestion].image;
+      questionElement.innerHTML = '';
+      questionElement.appendChild(image);
+      optionsElement.innerHTML = '';
+      const shuffledOptions = shuffle([
+        quizData[currentQuestion].englishWord,
+        getRandomOption(),
+        getRandomOption()
+      ]);
+      shuffledOptions.forEach(option => {
+        const button = document.createElement('button');
+        button.innerText = option;
+        button.onclick = () => checkAnswer(option);
+        optionsElement.appendChild(button);
+      });
+    }
+
+    function shuffle(array) {
+      for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+      }
+      return array;
+    }
+
+    function getRandomOption() {
+      let randomOption;
+      do {
+        randomOption = quizData[Math.floor(Math.random() * quizData.length)].englishWord;
+      } while (randomOption === quizData[currentQuestion].englishWord);
+      return randomOption;
+    }
+
+    function checkAnswer(answer) {
+      const userAnswer = document.getElementById('answerInput').value.trim();
+      const correctAnswer = quizData[currentQuestion].englishWord;
+      if (userAnswer.toLowerCase() === correctAnswer.t
