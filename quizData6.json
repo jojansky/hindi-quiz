@@ -1,1 +1,49 @@
-
+[
+    {
+    "hindiWord": "अमृत",
+    "englishWord": "Lion",
+    "image": "img/no.jpg"
+  },  {
+    "hindiWord": "झरना",
+    "englishWord": "Tiger",
+    "image": "img/no.jpg"
+  },  {
+    "hindiWord": "मृइ",
+    "englishWord": "Elephant",
+    "image": "img/no.jpg"
+  },  {
+    "hindiWord": "घृत",
+    "englishWord": "Bear",
+    "image": "img/no.jpg"
+  },  {
+    "hindiWord": "हृदय",
+    "englishWord": "Deer",
+    "image": "img/no.jpg"
+  },  {
+    "hindiWord": "मृत",
+    "englishWord": "Monkey",
+    "image": "img/no.jpg"
+  },  {
+    "hindiWord": "ऋतु",
+    "englishWord": "Snake",
+    "image": "img/no.jpg"
+  },  {
+    "hindiWord": "वृय",
+    "englishWord": "Kangaroo",
+    "image": "img/no.jpg"
+  },  {
+    "hindiWord": "तृतीय",
+    "englishWord": "Rhino",
+    "image": "img/no.jpg"
+  },
+   {
+    "hindiWord": "तृतीय",
+    "englishWord": "Cheetah",
+    "image": "img/no.jpg"
+  } ,
+   {
+    "hindiWord": "तृतीय",
+    "englishWord": "Leopard",
+    "image": "img/no.jpg"
+  } 
+]
